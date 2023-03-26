@@ -1,0 +1,173 @@
+@import "variables";
+@import "glosarios";
+
+.fondoIndex{
+    font-family: 'Manrope', sans-serif;
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    background-color: #000000;
+}
+
+.navbar-brand{
+    margin-left: 70px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        color: transparent;
+        }
+}
+
+.nav-link{
+    margin-right: 70px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.nav-link-inicio{
+    &:hover{
+        color: #ffd97d;
+        }
+}
+.nav-link-glosario{
+    &:hover{
+        color: #ff9b85;
+        }
+}
+.nav-link-consejos{
+    &:hover{
+        color: #bdb2ff;
+        }
+}
+.nav-link-software{
+    &:hover{
+        color: #60d394;
+        }
+}
+.nav-link-recursos{
+    &:hover{
+        color: #ee6055;
+        }
+}
+
+.indexText{
+    display: flex;
+    flex-direction: column;
+    align-items: left; /*horizontal*/
+    height: 570px;
+    justify-content: center;
+    margin-left: 70px;
+    padding-bottom: 30px;
+    h1{
+        font-size: 70px;
+        text-align: left;
+        color: #000000;
+        font-weight: bolder;
+        span{
+            background-image: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+            background-repeat: no-repeat;
+            background-size: 100% 0.1em;
+            background-position: 0 100%;
+            transition: background-size 0.25s ease-in;
+                &:hover {
+                background-size: 100% 88% !important;
+                }
+            }
+        }
+    }
+    
+
+    .subtituloIndex{
+        color: #000000;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bolder;
+    }
+    .parrafoIndex{
+        text-align: left;
+        width: 700px;
+        color: #575757;
+    }
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    img{
+        margin-right: 20px;
+        width: 33px;
+        height: auto;
+        transition: all 0.2s ease-in-out;
+        &:hover{
+            transform: scale(0.8);
+            }
+    }
+
+}
+
+// /*MOBILE RESPONSIVE INDEX*/
+// @media screen and (max-width: 500px) {
+
+// .indexText{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center; /*horizontal*/
+//     height: 570px;
+//     justify-content: center;
+//     margin-left: 0px;
+//     padding-bottom: 0px;
+//     h1{
+//         font-size: 40px;
+//         text-align: center;
+//         color: #000000;
+//         font-weight: bolder;
+//         span{
+//             background-image: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+//             background-repeat: no-repeat;
+//             background-size: 100% 0.1em;
+//             background-position: 0 100%;
+//             transition: background-size 0.25s ease-in;
+//                 &:hover {
+//                 background-size: 100% 88% !important;
+//                 }
+//             }
+//         }
+//     }
+    
+
+//     .subtituloIndex{
+//         color: #000000;
+//         font-size: 20px;
+//         font-style: italic;
+//         font-weight: bolder;
+//     }
+//     .parrafoIndex{
+//         text-align: center;
+//         flex-wrap: wrap;
+//         width: 70px;
+//         color: #575757;
+//     }
+
+// .contacto{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     img{
+//         margin-right: 3px;
+//         width: 30px;
+//         height: auto;
+//         transition: all 0.2s ease-in-out;
+//         &:hover{
+//             transform: scale(0.8);
+//             }
+//     }
+
+// }
+// }

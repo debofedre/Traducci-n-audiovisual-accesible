@@ -1,0 +1,217 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #f0f0f0; }
+
+.fondoGlosario {
+  background-color: #f0f0f0;
+  background-size: cover; }
+
+.glosarioText {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  /*horizontal*/
+  justify-content: center;
+  height: 570px;
+  margin-left: 60px; }
+  .glosarioText h1 {
+    color: #000000;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bolder; }
+  .glosarioText p {
+    width: 700px; }
+    .glosarioText p a {
+      color: #000000;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: bolder;
+      text-decoration: none;
+      background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+      background-clip: text;
+      -webkit-background-clip: text;
+      transition: all 0.2s ease-in-out; }
+      .glosarioText p a:hover {
+        font-size: 21px;
+        color: transparent; }
+
+.introText {
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .introText p {
+    width: 50%;
+    text-align: left;
+    width: 600px;
+    color: #575757; }
+
+.textoInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .textoInfo h2 {
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-weight: bolder; }
+  .textoInfo p {
+    width: 50%;
+    text-align: left;
+    width: 600px;
+    color: #000000; }
+  .textoInfo ul {
+    width: 50%;
+    text-align: left;
+    width: 600px;
+    color: #000000; }
+
+.tituloGlosario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px; }
+  .tituloGlosario h2 {
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-weight: bolder; }
+
+/*Tabla*/
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px; }
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  overflow: hidden;
+  font-size: 18px; }
+
+th,
+td {
+  padding: 15px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center; }
+
+th {
+  text-align: center; }
+
+thead th {
+  border-bottom: 3px solid #000000; }
+
+tbody tr {
+  border-bottom: 2px dotted #000000; }
+
+/*Sticky BTN*/
+.stickyBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 1000;
+  background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+  border-radius: 50%; }
+  .stickyBtn a svg {
+    width: 60px;
+    height: 60px;
+    color: #000000;
+    transition: all 0.2s ease-in-out; }
+    .stickyBtn a svg:hover {
+      transform: scale(0.8); }
+
+/*MOBILE RESPONSIVE FRANJA NEGRA*/
+.fondoIndex {
+  font-family: 'Manrope', sans-serif;
+  background-color: #f0f0f0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.navbar {
+  background-color: #000000; }
+
+.navbar-brand {
+  margin-left: 70px;
+  font-weight: bolder;
+  color: white;
+  background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 0.2s ease-in-out; }
+  .navbar-brand:hover {
+    color: transparent; }
+
+.nav-link {
+  margin-right: 70px;
+  color: white;
+  font-weight: bolder; }
+
+.nav-link-inicio:hover {
+  color: #ffd97d; }
+
+.nav-link-glosario:hover {
+  color: #ff9b85; }
+
+.nav-link-consejos:hover {
+  color: #bdb2ff; }
+
+.nav-link-software:hover {
+  color: #60d394; }
+
+.nav-link-recursos:hover {
+  color: #ee6055; }
+
+.indexText {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  /*horizontal*/
+  height: 570px;
+  justify-content: center;
+  margin-left: 70px;
+  padding-bottom: 30px; }
+  .indexText h1 {
+    font-size: 70px;
+    text-align: left;
+    color: #000000;
+    font-weight: bolder; }
+    .indexText h1 span {
+      background-image: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+      background-repeat: no-repeat;
+      background-size: 100% 0.1em;
+      background-position: 0 100%;
+      transition: background-size 0.25s ease-in; }
+      .indexText h1 span:hover {
+        background-size: 100% 88% !important; }
+
+.subtituloIndex {
+  color: #000000;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder; }
+
+.parrafoIndex {
+  text-align: left;
+  width: 700px;
+  color: #575757; }
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: left; }
+  .contacto img {
+    margin-right: 20px;
+    width: 33px;
+    height: auto;
+    transition: all 0.2s ease-in-out; }
+    .contacto img:hover {
+      transform: scale(0.8); }
