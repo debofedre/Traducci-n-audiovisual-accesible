@@ -215,3 +215,50 @@ tbody tr {
     transition: all 0.2s ease-in-out; }
     .contacto img:hover {
       transform: scale(0.8); }
+
+/*MOBILE RESPONSIVE INDEX*/
+@media screen and (max-width: 500px) {
+  .indexText {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /*horizontal*/
+    height: 450px;
+    justify-content: center;
+    margin-left: 5px;
+    padding-bottom: 0px; }
+    .indexText h1 {
+      font-size: 30px;
+      text-align: left;
+      color: #000000;
+      font-weight: bolder; }
+      .indexText h1 span {
+        background-image: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+        background-repeat: no-repeat;
+        background-size: 100% 0.1em;
+        background-position: 0 100%;
+        transition: background-size 0.25s ease-in; }
+        .indexText h1 span:hover {
+          background-size: 100% 88% !important; }
+  .subtituloIndex {
+    color: #000000;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder; }
+  .parrafoIndex {
+    font-size: 15px;
+    text-align: left;
+    flex-wrap: wrap;
+    width: 200px;
+    color: #575757; }
+  .contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: left; }
+    .contacto img {
+      margin-right: 3px;
+      width: 30px;
+      height: auto;
+      transition: all 0.2s ease-in-out; }
+      .contacto img:hover {
+        transform: scale(0.8); } }
