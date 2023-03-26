@@ -121,10 +121,10 @@
     align-items: left; /*horizontal*/
     height: 450px;
     justify-content: center;
-    margin-left: 5px;
+    margin-left: 15px;
     padding-bottom: 0px;
     h1{
-        font-size: 30px;
+        font-size: 35px;
         text-align: left;
         color: #000000;
         font-weight: bolder;
@@ -144,7 +144,7 @@
 
     .subtituloIndex{
         color: #000000;
-        font-size: 20px;
+        font-size: 25px;
         font-style: italic;
         font-weight: bolder;
     }
@@ -152,7 +152,7 @@
         font-size: 15px;
         text-align: left;
         flex-wrap: wrap;
-        width: 200px;
+        width: 250px;
         color: #575757;
     }
 
