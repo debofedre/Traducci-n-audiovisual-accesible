@@ -141,11 +141,11 @@ tbody tr {
     margin-left: 15px; }
     .glosarioText h1 {
       color: #000000;
-      font-size: 35px;
+      font-size: 25px;
       margin-bottom: 10px;
       font-weight: bolder; }
     .glosarioText p {
-      width: 250px; }
+      width: 229px; }
       .glosarioText p a {
         color: #000000;
         font-size: 15px;
@@ -168,9 +168,10 @@ tbody tr {
     justify-content: center;
     align-items: center; }
     .introText p {
+      font-size: 10px;
       width: 50%;
       text-align: left;
-      width: 250px;
+      width: 229px;
       color: #575757; }
   .textoInfo {
     display: flex;
@@ -179,20 +180,19 @@ tbody tr {
     margin-top: 20px;
     margin-bottom: 20px; }
     .textoInfo h2 {
-      font-size: 35px;
+      font-size: 30px;
       margin-top: 100px;
       margin-bottom: 50px;
       color: #000000;
       font-weight: bolder; }
     .textoInfo p {
-      width: 50%;
       text-align: left;
-      width: 250px;
+      width: 229px;
       color: #000000; }
     .textoInfo ul {
       width: 50%;
       text-align: left;
-      width: 250px;
+      width: 229px;
       color: #000000; }
   .tituloGlosario {
     display: flex;
@@ -200,11 +200,36 @@ tbody tr {
     align-items: center;
     margin-top: 70px; }
     .tituloGlosario h2 {
-      font-size: 35px;
+      font-size: 25px;
       margin-top: 100px;
       margin-bottom: 50px;
       color: #000000;
-      font-weight: bolder; } }
+      font-weight: bolder;
+      margin-left: 15px;
+      text-align: center; }
+  /*Tabla*/
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; }
+  table {
+    width: 45%;
+    border-collapse: collapse;
+    overflow: hidden;
+    font-size: 10px; }
+  th,
+  td {
+    padding: 10px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center; }
+  th {
+    text-align: center; }
+  thead th {
+    border-bottom: 3px solid #000000; }
+  tbody tr {
+    border-bottom: 2px dotted #000000; } }
 
 .fondoIndex {
   font-family: 'Manrope', sans-serif;
@@ -299,7 +324,7 @@ tbody tr {
     flex-direction: column;
     align-items: left;
     /*horizontal*/
-    height: 450px;
+    height: 500px;
     justify-content: center;
     margin-left: 15px;
     padding-bottom: 0px; }
@@ -325,7 +350,7 @@ tbody tr {
     font-size: 15px;
     text-align: left;
     flex-wrap: wrap;
-    width: 250px;
+    width: 229px;
     color: #575757; }
   .contacto {
     display: flex;

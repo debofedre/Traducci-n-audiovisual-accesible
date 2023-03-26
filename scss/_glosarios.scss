@@ -183,12 +183,12 @@ tbody {
         margin-left: 15px;
         h1{
             color: #000000;
-            font-size: 35px;
+            font-size: 25px;
             margin-bottom: 10px;
             font-weight: bolder;
             }    
         p{
-            width: 250px;
+            width: 229px;
             a{
                 color: #000000;
                 font-size: 15px;
@@ -218,9 +218,10 @@ tbody {
         justify-content: center;
         align-items: center;
         p{
+            font-size: 10px;
             width: 50%;
             text-align: left;
-            width: 250px;
+            width: 229px;
             color: #575757;
         }
      }
@@ -235,22 +236,21 @@ tbody {
         margin-top: 20px;
         margin-bottom: 20px;
         h2{
-            font-size: 35px;
+            font-size: 30px;
             margin-top: 100px;
             margin-bottom: 50px;
             color: #000000;
             font-weight: bolder;
         }
         p{
-            width: 50%;
             text-align: left;
-            width: 250px;
+            width: 229px;
             color: #000000;
         }
         ul{
             width: 50%;
             text-align: left;
-            width: 250px;
+            width: 229px;
             color: #000000;
         }
     }
@@ -263,13 +263,55 @@ tbody {
         align-items: center;
         margin-top: 70px;
         h2{
-            font-size: 35px;
+            font-size: 25px;
             margin-top: 100px;
             margin-bottom: 50px;
             color: #000000;
             font-weight: bolder;
+            margin-left: 15px;
+            text-align: center;
         }
     }
+
+    /*Tabla*/
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+table {
+	width: 45%;
+	border-collapse: collapse;
+	overflow: hidden;
+    font-size: 10px;
+}
+
+th,
+td {
+	padding: 10px;
+	color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+th {
+	text-align: center;
+}
+
+thead {
+	th {
+		border-bottom: 3px solid #000000;
+	}
+}
+
+tbody {
+	tr {
+		border-bottom: 2px dotted #000000;
+	}
+}
     
 
 }
