@@ -1,38 +1,37 @@
 body {
   font-family: 'Manrope', sans-serif;
-  background-color: #f0f0f0; }
+  background-color: #ffffff; }
 
 .fondoGlosario {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   background-size: cover; }
 
 .glosarioText {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   /*horizontal*/
   justify-content: center;
-  height: 570px;
-  margin-left: 60px; }
+  height: 570px; }
   .glosarioText h1 {
     color: #000000;
     font-size: 60px;
     margin-bottom: 20px;
     font-weight: bolder; }
   .glosarioText p {
-    width: 700px; }
+    width: 700px;
+    text-align: center; }
     .glosarioText p a {
       color: #000000;
       font-size: 20px;
       font-style: italic;
-      font-weight: bolder;
+      font-weight: light;
       text-decoration: none;
       background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
       background-clip: text;
       -webkit-background-clip: text;
       transition: all 0.2s ease-in-out; }
       .glosarioText p a:hover {
-        font-size: 21px;
         color: transparent; }
 
 .introText {
@@ -71,6 +70,13 @@ body {
     text-align: left;
     width: 600px;
     color: #000000; }
+    .textoInfo ul img {
+      height: 300px;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .textoInfo ul li a {
+      text-decoration: none;
+      color: #000000; }
 
 .tituloGlosario {
   display: flex;
@@ -92,7 +98,7 @@ body {
   margin-bottom: 40px; }
 
 table {
-  width: 50%;
+  width: 56%;
   border-collapse: collapse;
   overflow: hidden;
   font-size: 18px; }
@@ -101,7 +107,6 @@ th,
 td {
   padding: 15px;
   color: #000000;
-  font-weight: bold;
   text-align: center; }
 
 th {
@@ -150,14 +155,13 @@ tbody tr {
         color: #000000;
         font-size: 15px;
         font-style: italic;
-        font-weight: bolder;
+        font-weight: light;
         text-decoration: none;
         background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
         background-clip: text;
         -webkit-background-clip: text;
         transition: all 0.2s ease-in-out; }
         .glosarioText p a:hover {
-          font-size: 21px;
           color: transparent; }
   .introText {
     background-color: #000000;
@@ -194,6 +198,8 @@ tbody tr {
       text-align: left;
       width: 229px;
       color: #000000; }
+      .textoInfo ul img {
+        height: 100px; }
   .tituloGlosario {
     display: flex;
     flex-direction: column;
@@ -233,7 +239,7 @@ tbody tr {
 
 .fondoIndex {
   font-family: 'Manrope', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -244,7 +250,7 @@ tbody tr {
   margin-left: 70px;
   font-weight: bolder;
   color: white;
-  background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+  background: linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
   background-clip: text;
   -webkit-background-clip: text;
   transition: all 0.2s ease-in-out; }
@@ -257,19 +263,29 @@ tbody tr {
   font-weight: bolder; }
 
 .nav-link-inicio:hover {
-  color: #ffd97d; }
+  background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .nav-link-glosario:hover {
-  color: #ff9b85; }
+  background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .nav-link-consejos:hover {
-  color: #bdb2ff; }
+  background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .nav-link-software:hover {
-  color: #60d394; }
+  background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .nav-link-recursos:hover {
-  color: #ee6055; }
+  background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .indexText {
   display: flex;
@@ -285,20 +301,29 @@ tbody tr {
     text-align: left;
     color: #000000;
     font-weight: bolder; }
-    .indexText h1 span {
-      background-image: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
-      background-repeat: no-repeat;
-      background-size: 100% 0.1em;
-      background-position: 0 100%;
-      transition: background-size 0.25s ease-in; }
-      .indexText h1 span:hover {
-        background-size: 100% 88% !important; }
 
 .subtituloIndex {
   color: #000000;
   font-size: 30px;
-  font-style: italic;
   font-weight: bolder; }
+  .subtituloIndex span {
+    background-image: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: 0 100%;
+    transition: background-size 0.25s ease-in; }
+    .subtituloIndex span:hover {
+      background-size: 100% 88% !important; }
+
+.fancy-undeline {
+  background-image: linear-gradient(120deg, #cc2b5e, #753a88 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 1em;
+  background-position: 0 80%;
+  transition: background-size 0.25s ease-in; }
+
+.fancy-undeline:hover {
+  background-size: 100% 88% !important; }
 
 .parrafoIndex {
   text-align: left;

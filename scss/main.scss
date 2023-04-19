@@ -3,20 +3,20 @@
 
 .fondoIndex{
     font-family: 'Manrope', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .navbar{
-    background-color: #000000;
+    background-color: $colorPrincipal;
 }
 
 .navbar-brand{
     margin-left: 70px;
     font-weight: bolder;
     color: rgb(255, 255, 255);
-    background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+    background: linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
     background-clip: text;
     -webkit-background-clip: text;
     transition: all 0.2s ease-in-out;
@@ -33,27 +33,37 @@
 
 .nav-link-inicio{
     &:hover{
-        color: #ffd97d;
+        background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         }
 }
 .nav-link-glosario{
     &:hover{
-        color: #ff9b85;
+        background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         }
 }
 .nav-link-consejos{
     &:hover{
-        color: #bdb2ff;
+        background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         }
 }
 .nav-link-software{
     &:hover{
-        color: #60d394;
+        background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         }
 }
 .nav-link-recursos{
     &:hover{
-        color: #ee6055;
+        background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         }
 }
 
@@ -68,7 +78,16 @@
     h1{
         font-size: 70px;
         text-align: left;
-        color: #000000;
+        color: $colorPrincipal;
+        font-weight: bolder;
+        }
+    }
+    
+
+    .subtituloIndex{
+        color: $colorPrincipal;
+        font-size: 30px;
+        // font-style: italic;
         font-weight: bolder;
         span{
             background-image: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
@@ -79,17 +98,23 @@
                 &:hover {
                 background-size: 100% 88% !important;
                 }
-            }
-        }
+            }  
     }
-    
 
-    .subtituloIndex{
-        color: #000000;
-        font-size: 30px;
-        font-style: italic;
-        font-weight: bolder;
-    }
+    
+    .fancy-undeline {
+        background-image: linear-gradient(120deg, #cc2b5e,#753a88 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 1em;
+        background-position: 0 80%;
+        transition: background-size 0.25s ease-in;
+      }
+
+      .fancy-undeline:hover {
+        background-size: 100% 88% !important;
+      }
+    
+    
     .parrafoIndex{
         text-align: left;
         width: 400px;
@@ -128,7 +153,7 @@
     h1{
         font-size: 35px;
         text-align: left;
-        color: #000000;
+        color: $colorPrincipal;
         font-weight: bolder;
         span{
             background-image: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
@@ -145,7 +170,7 @@
     
 
     .subtituloIndex{
-        color: #000000;
+        color: $colorPrincipal;
         font-size: 25px;
         font-style: italic;
         font-weight: bolder;
