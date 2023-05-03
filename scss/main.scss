@@ -3,19 +3,21 @@
 
 .fondoIndex{
     font-family: 'Manrope', sans-serif;
-    background-color: #ffffff;
+    // font-family: 'Unbounded', cursive;
+    background-color: $colorSecundario;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .navbar{
     background-color: $colorPrincipal;
+    box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.678);
 }
 
 .navbar-brand{
     margin-left: 70px;
     font-weight: bolder;
-    color: rgb(255, 255, 255);
+    color: #f0f0f0;
     background: linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
     background-clip: text;
     -webkit-background-clip: text;
@@ -27,7 +29,7 @@
 
 .nav-link{
     margin-right: 70px;
-    color: rgb(255, 255, 255);
+    color: #f0f0f0;;
     font-weight: bolder;
 }
 
@@ -71,24 +73,24 @@
     display: flex;
     flex-direction: column;
     align-items: left; /*horizontal*/
-    height: 570px;
+    height: 565px;
     justify-content: center;
     margin-left: 70px;
     padding-bottom: 30px;
     h1{
-        font-size: 70px;
+        
+        font-size: 80px;
         text-align: left;
-        color: $colorPrincipal;
-        font-weight: bolder;
+        color: $colorPrincipal;;
         }
     }
     
 
     .subtituloIndex{
-        color: $colorPrincipal;
-        font-size: 30px;
-        // font-style: italic;
-        font-weight: bolder;
+        color: $colorPrincipal;;
+        font-size: 27px; 
+        font-weight: bold;       
+
         span{
             background-image: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
             background-repeat: no-repeat;
@@ -118,7 +120,7 @@
     .parrafoIndex{
         text-align: left;
         width: 400px;
-        color: #575757;
+        color: #949494;
     }
 
 .contacto{
@@ -146,7 +148,7 @@
     display: flex;
     flex-direction: column;
     align-items: left; /*horizontal*/
-    height: 500px;
+    height: 600px;
     justify-content: center;
     margin-left: 15px;
     padding-bottom: 0px;
