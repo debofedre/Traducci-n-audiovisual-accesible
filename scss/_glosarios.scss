@@ -18,7 +18,7 @@ body{
     height: 570px;
     // margin-left: 60px;
     h1{
-        color: $colorPrincipal;
+        color: $texto;
         font-size: 60px;
         margin-bottom: 20px;
         font-weight: bolder;
@@ -27,16 +27,17 @@ body{
         width: 700px;
         text-align: center;
         a{
-            color: $colorPrincipal;
+            color: $texto;
             font-size: 20px;
             font-weight:  light;
             text-decoration: none;
-            background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
-            background-clip: text;
-            -webkit-background-clip: text;
-            transition: all 0.2s ease-in-out;
+            // background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+            // background-clip: text;
+            // -webkit-background-clip: text;
+            // transition: all 0.2s ease-in-out;
                 &:hover{
-                    color: transparent;
+                    // color: transparent;
+                    color: $colorTerciario ;
                     }
         }
     }
@@ -45,8 +46,8 @@ body{
 // Texto negro
 
  .introText{
-    background-color: $colorPrincipal;
-    color: #ffffff;
+    background: linear-gradient(90deg, #E9F7FD 0%, #E8F6FD 9.09%, #E7F1FC 18.18%, #E5EAFB 27.27%, #E3E2FA 36.36%, #E9DFF8 45.45%, #EFDDF6 54.55%, #F4DBF3 63.64%, #F2D9EA 72.73%, #F0D8E2 81.82%, #EFD7DE 90.91%, #EED7DC 100%);
+    color: $texto;
     width: 100%;
     height: 300px;
     display: flex;
@@ -75,20 +76,21 @@ body{
         font-size: 60px;
         margin-top: 100px;
         margin-bottom: 50px;
-        color: $colorPrincipal;
+        color: $texto;
         font-weight: bolder;
     }
     p{
         width: 50%;
         text-align: left;
         width: 600px;
-        color: $colorPrincipal;
+        color: $texto;
     }
     ul{
         width: 50%;
         text-align: left;
         width: 600px;
-        color: $colorPrincipal;
+        color: $texto;
+        list-style-type: '- ';
         img{
             height: 300px;
             margin-top: 10px;
@@ -97,13 +99,9 @@ body{
         li{
             a{
                 text-decoration: none;
-                color: $colorPrincipal;
-                background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
-                background-clip: text;
-                -webkit-background-clip: text;
-                transition: all 0.2s ease-in-out;
+                color: $texto;
                 &:hover{
-                    color: transparent;
+                    color: $colorTerciario;
                     }
         }
         }
@@ -121,7 +119,7 @@ body{
         font-size: 60px;
         margin-top: 100px;
         margin-bottom: 50px;
-        color: $colorPrincipal;
+        color: $texto;
         font-weight: bolder;
     }
 }
@@ -145,7 +143,7 @@ table {
 th,
 td {
 	padding: 15px;
-	color: $colorPrincipal;
+	color: $texto;
     text-align: center;
 }
 
@@ -155,13 +153,13 @@ th {
 
 thead {
 	th {
-		border-bottom: 3px solid $colorPrincipal;
+		border-bottom: 3px solid $texto;
 	}
 }
 
 tbody {
 	tr {
-		border-bottom: 2px dotted $colorPrincipal;
+		border-bottom: 2px dotted $texto;
 	}
 }
 
@@ -173,13 +171,13 @@ tbody {
     bottom: 30px;
     right:20px;
     z-index: 1000;
-    background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+    background: linear-gradient(90deg, #E9F7FD 0%, #E8F6FD 9.09%, #E7F1FC 18.18%, #E5EAFB 27.27%, #E3E2FA 36.36%, #E9DFF8 45.45%, #EFDDF6 54.55%, #F4DBF3 63.64%, #F2D9EA 72.73%, #F0D8E2 81.82%, #EFD7DE 90.91%, #EED7DC 100%);
     border-radius: 50%;
     a{
     svg{
         width:60px;
         height: 60px;
-        color: $colorPrincipal; 
+        color: $texto; 
         transition: all 0.2s ease-in-out;
         &:hover{
             transform: scale(0.8);
@@ -200,7 +198,7 @@ tbody {
         height: 570px;
         margin-left: 15px;
         h1{
-            color: $colorPrincipal;
+            color: $texto;
             font-size: 25px;
             margin-bottom: 10px;
             font-weight: bolder;
@@ -208,18 +206,9 @@ tbody {
         p{
             width: 229px;
             a{
-                color: $colorPrincipal;
+                color: $texto;
                 font-size: 15px;
                 font-style: italic;
-                font-weight: light;
-                text-decoration: none;
-                background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
-                background-clip: text;
-                -webkit-background-clip: text;
-                transition: all 0.2s ease-in-out;
-                    &:hover{
-                        color: transparent;
-                        }
             }
         }
     }
@@ -227,8 +216,7 @@ tbody {
     // Texto negro
     
      .introText{
-        background-color: $colorPrincipal;
-        color: #ffffff;
+        background-color: $texto;
         width: 100%;
         height: 300px;
         display: flex;
@@ -256,20 +244,20 @@ tbody {
             font-size: 30px;
             margin-top: 100px;
             margin-bottom: 50px;
-            color: $colorPrincipal;
+            color: $texto;
             font-weight: bolder;
             text-align: center;
         }
         p{
             text-align: left;
             width: 229px;
-            color: $colorPrincipal;
+            color: $texto;
         }
         ul{
             width: 50%;
             text-align: left;
             width: 229px;
-            color: $colorPrincipal;
+            color: $texto;
             img{
                 height: 100px;
             }
@@ -287,7 +275,7 @@ tbody {
             font-size: 25px;
             margin-top: 100px;
             margin-bottom: 50px;
-            color: $colorPrincipal;
+            color: $texto;
             font-weight: bolder;
             margin-left: 15px;
             text-align: center;
@@ -313,7 +301,7 @@ table {
 th,
 td {
 	padding: 10px;
-	color: $colorPrincipal;
+	color: $texto;
     font-weight: bold;
     text-align: center;
     
@@ -326,14 +314,14 @@ th {
 
 thead {
 	th {
-		border-bottom: 3px solid $colorPrincipal;
+		border-bottom: 3px solid $texto;
         
 	}
 }
 
 tbody {
 	tr {
-		border-bottom: 2px dotted $colorPrincipal;
+		border-bottom: 2px dotted $texto;
         
 	}
 }

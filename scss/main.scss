@@ -3,22 +3,24 @@
 
 .fondoIndex{
     font-family: 'Manrope', sans-serif;
-    // font-family: 'Unbounded', cursive;
     background-color: $colorSecundario;
+    // background: linear-gradient(90deg, #E9F7FD 0%, #E8F6FD 9.09%, #E7F1FC 18.18%, #E5EAFB 27.27%, #E3E2FA 36.36%, #E9DFF8 45.45%, #EFDDF6 54.55%, #F4DBF3 63.64%, #F2D9EA 72.73%, #F0D8E2 81.82%, #EFD7DE 90.91%, #EED7DC 100%);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .navbar{
-    background-color: $colorPrincipal;
-    box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.678);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f3f6f9;
+    // background: linear-gradient(90deg, #E9F7FD 0%, #E8F6FD 9.09%, #E7F1FC 18.18%, #E5EAFB 27.27%, #E3E2FA 36.36%, #E9DFF8 45.45%, #EFDDF6 54.55%, #F4DBF3 63.64%, #F2D9EA 72.73%, #F0D8E2 81.82%, #EFD7DE 90.91%, #EED7DC 100%);
+    // box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.418);
 }
 
 .navbar-brand{
     margin-left: 70px;
-    font-weight: bolder;
-    color: #f0f0f0;
-    background: linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+    color: $colorTerciario;
+    background: $texto;
     background-clip: text;
     -webkit-background-clip: text;
     transition: all 0.2s ease-in-out;
@@ -29,43 +31,34 @@
 
 .nav-link{
     margin-right: 70px;
-    color: #f0f0f0;;
-    font-weight: bolder;
+    color: $texto;
 }
 
 .nav-link-inicio{
     &:hover{
-        background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+        background: -webkit-linear-gradient(45deg, $colorTerciario, $colorTerciario, $colorTerciario, $colorTerciario, $colorTerciario);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         }
 }
 .nav-link-glosario{
     &:hover{
-        background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: $colorTerciario;
         }
 }
 .nav-link-consejos{
     &:hover{
-        background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: $colorTerciario;
         }
 }
 .nav-link-software{
     &:hover{
-        background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: $colorTerciario;
         }
 }
 .nav-link-recursos{
     &:hover{
-        background: -webkit-linear-gradient(45deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: $colorTerciario;
         }
 }
 
@@ -73,54 +66,54 @@
     display: flex;
     flex-direction: column;
     align-items: left; /*horizontal*/
-    height: 565px;
+    height: 560px;
     justify-content: center;
     margin-left: 70px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     h1{
         
         font-size: 80px;
         text-align: left;
-        color: $colorPrincipal;;
+        color: $texto;
         }
     }
     
 
     .subtituloIndex{
-        color: $colorPrincipal;;
+        color: $colorTerciario;
         font-size: 27px; 
         font-weight: bold;       
-
-        span{
-            background-image: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
-            background-repeat: no-repeat;
-            background-size: 100% 0.1em;
-            background-position: 0 100%;
-            transition: background-size 0.25s ease-in;
-                &:hover {
-                background-size: 100% 88% !important;
-                }
-            }  
+        /*subrayado*/
+        // span{
+        //     background-image: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
+        //     background-repeat: no-repeat;
+        //     background-size: 100% 0.1em;
+        //     background-position: 0 100%;
+        //     transition: background-size 0.25s ease-in;
+        //         &:hover {
+        //         background-size: 100% 88% !important;
+        //         }
+        //     }  
     }
 
     
-    .fancy-undeline {
-        background-image: linear-gradient(120deg, #cc2b5e,#753a88 100%);
-        background-repeat: no-repeat;
-        background-size: 100% 1em;
-        background-position: 0 80%;
-        transition: background-size 0.25s ease-in;
-      }
+    // .fancy-undeline {
+    //     background-image: linear-gradient(120deg, #cc2b5e,#753a88 100%);
+    //     background-repeat: no-repeat;
+    //     background-size: 100% 1em;
+    //     background-position: 0 80%;
+    //     transition: background-size 0.25s ease-in;
+    //   }
 
-      .fancy-undeline:hover {
-        background-size: 100% 88% !important;
-      }
+    //   .fancy-undeline:hover {
+    //     background-size: 100% 88% !important;
+    //   }
     
     
     .parrafoIndex{
         text-align: left;
-        width: 400px;
-        color: #949494;
+        width: 500px;
+        color: #7a7a7a;
     }
 
 .contacto{
@@ -144,6 +137,10 @@
 /*MOBILE RESPONSIVE INDEX*/
 @media screen and (max-width: 500px) {
 
+.navbar-brand{
+    margin-left: 0px;
+}
+
 .indexText{
     display: flex;
     flex-direction: column;
@@ -151,11 +148,10 @@
     height: 600px;
     justify-content: center;
     margin-left: 15px;
-    padding-bottom: 0px;
     h1{
         font-size: 35px;
         text-align: left;
-        color: $colorPrincipal;
+        color: $texto;
         font-weight: bolder;
         span{
             background-image: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
@@ -172,7 +168,6 @@
     
 
     .subtituloIndex{
-        color: $colorPrincipal;
         font-size: 25px;
         font-style: italic;
         font-weight: bolder;
@@ -182,7 +177,6 @@
         text-align: left;
         flex-wrap: wrap;
         width: 229px;
-        color: #575757;
     }
 
 .contacto{
@@ -190,7 +184,7 @@
     flex-direction: row;
     justify-content: left;
     img{
-        margin-right: 3px;
+        margin-right: 10px;
         width: 30px;
         height: auto;
         transition: all 0.2s ease-in-out;
