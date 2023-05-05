@@ -21,7 +21,7 @@
 .navbar-brand{
     margin-left: 70px;
     color: $colorTerciario;
-    background: -webkit-linear-gradient(90deg, #85a5c7 50%, #9b51e0 100%);
+    background: -webkit-linear-gradient(50deg, #85a5c7 50%, #9b51e0 100%);
     background-clip: text;
     -webkit-background-clip: text;
     transition: all 0.2s ease-in-out;
@@ -41,9 +41,7 @@
 
 .nav-link-inicio{
     &:hover{
-        background: -webkit-linear-gradient(45deg, $colorTerciario, $colorTerciario, $colorTerciario, $colorTerciario, $colorTerciario);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: $colorTerciario;
         }
 }
 .nav-link-glosario{

@@ -45,7 +45,7 @@ body{
 // Texto negro
 
  .introText{
-    background: linear-gradient(90deg, #E9F7FD 0%, #E8F6FD 9.09%, #E7F1FC 18.18%, #E5EAFB 27.27%, #E3E2FA 36.36%, #E9DFF8 45.45%, #EFDDF6 54.55%, #F4DBF3 63.64%, #F2D9EA 72.73%, #F0D8E2 81.82%, #F2D9EA 90.91%, #EED7DC 100%);
+    // background: linear-gradient(90deg, #E9F7FD 0%, #E8F6FD 9.09%, #E7F1FC 18.18%, #E5EAFB 27.27%, #E3E2FA 36.36%, #E9DFF8 45.45%, #EFDDF6 54.55%, #F4DBF3 63.64%, #F2D9EA 72.73%, #F0D8E2 81.82%, #F2D9EA 90.91%, #EED7DC 100%);
     background: linear-gradient(90deg, #E9F7FD 0%, #E8F6FD 9.09%, #E7F1FC 18.18%, #E5EAFB 27.27%, #E3E2FA 36.36%, #E9DFF8 45.45%, #EFDDF6 54.55%, #ecdbf4 63.64%, #ead9f2 72.73%, #e9d8f0 81.82%, #ead9f2 90.91%, #e8ddf3 100%);
     color: $texto;
     width: 100%;
@@ -151,13 +151,13 @@ th {
 
 thead {
 	th {
-		border-bottom: 3px solid $texto;
+		border-bottom: 2px solid $texto;
 	}
 }
 
 tbody {
 	tr {
-		border-bottom: 2px dotted $texto;
+		border-bottom: 1px dashed $texto;
 	}
 }
 
@@ -168,7 +168,7 @@ tbody {
     bottom: 30px;
     right:20px;
     z-index: 1000;
-    background: linear-gradient(90deg, #E9F7FD 0%, #E8F6FD 9.09%, #E7F1FC 18.18%, #E5EAFB 27.27%, #E3E2FA 36.36%, #E9DFF8 45.45%, #EFDDF6 54.55%, #F4DBF3 63.64%, #F2D9EA 72.73%, #F0D8E2 81.82%, #EFD7DE 90.91%, #EED7DC 100%);
+    background: linear-gradient(90deg, #E9F7FD 0%, #E8F6FD 9.09%, #E7F1FC 18.18%, #E5EAFB 27.27%, #E3E2FA 36.36%, #E9DFF8 45.45%, #EFDDF6 54.55%, #ecdbf4 63.64%, #ead9f2 72.73%, #e9d8f0 81.82%, #ead9f2 90.91%, #e8ddf3 100%);
     border-radius: 50%;
     a{
     svg{
@@ -300,25 +300,4 @@ td {
     text-align: center;
     
 }
-
-th {
-	text-align: center;
-    
-}
-
-thead {
-	th {
-		border-bottom: 3px solid $texto;
-        
-	}
-}
-
-tbody {
-	tr {
-		border-bottom: 2px dotted $texto;
-        
-	}
-}
-    
-
 }
