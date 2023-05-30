@@ -164,13 +164,14 @@ tbody tr {
     /*horizontal*/
     justify-content: center;
     height: 570px;
-    margin-left: 15px; }
+    margin-left: 15px;
+    width: 100%; }
     .glosarioText h1 {
       color: #000000;
       font-size: 25px;
       margin-bottom: 10px; }
     .glosarioText p {
-      width: 229px; }
+      width: 90%; }
       .glosarioText p a {
         color: #000000;
         font-size: 14px;
@@ -196,16 +197,18 @@ tbody tr {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    width: 100%; }
     .textoInfo h2 {
       font-size: 30px;
       margin-top: 100px;
       margin-bottom: 50px;
       color: #000000;
-      text-align: center; }
+      text-align: center;
+      width: 70%; }
     .textoInfo p {
-      text-align: left;
-      width: 229px;
+      text-align: justify;
+      width: 70%;
       color: #000000; }
     .textoInfo ul {
       width: 50%;
@@ -325,12 +328,14 @@ tbody tr {
     /*horizontal*/
     height: 600px;
     justify-content: center;
-    margin-left: 15px; }
+    margin-left: 15px;
+    width: 100%; }
     .indexText h1 {
       font-size: 35px;
       text-align: left;
       color: #000000;
-      font-weight: bolder; }
+      font-weight: bolder;
+      width: 90%; }
   .subtituloIndex {
     font-size: 20px;
     font-weight: bolder; }
