@@ -140,20 +140,20 @@ body{
     }
 }
 
-//  glosario
+// //  glosario
 
-.tituloGlosario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 70px;
-    h2{
-        font-size: 60px;
-        margin-top: 100px;
-        margin-bottom: 50px;
-        color: $texto;
-    }
-}
+// .tituloGlosario{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     margin-top: 70px;
+//     h2{
+//         font-size: 60px;
+//         margin-top: 100px;
+//         margin-bottom: 50px;
+//         color: $texto;
+//     }
+// }
 
 // Tablas
 
@@ -228,7 +228,6 @@ tbody {
         align-items: left; /*horizontal*/
         justify-content: center;
         height: 570px;
-        margin-left: 15px;
         width: 100%;
         h1{
             color: $texto;
@@ -290,7 +289,7 @@ tbody {
             color: $texto;
         }
         ul{
-            width: 50%;
+            width: 70%;
             text-align: left;
             width: 229px;
             color: $texto;
