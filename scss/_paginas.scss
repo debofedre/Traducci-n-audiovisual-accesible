@@ -1,10 +1,10 @@
 body{
-        font-family: 'Manrope', sans-serif;
-        background-color: $colorSecundario;
+    font-family: 'Manrope', sans-serif;
+    background-color: $colorSecundario;
 }
 
 .fondoGlosario{
-    background-color: $colorSecundario;
+    background-color: $colorPrincipal;
     background-size: cover;
 }
 
@@ -16,18 +16,17 @@ body{
     align-items: center; /*horizontal*/
     justify-content: center;
     height: 570px;
-    // margin-left: 60px;
     h1{
         color: $texto;
-        font-size: 60px;
-        margin-bottom: 20px;
+        font-size: 55px;
+        margin-bottom: 30px;
         }    
     p{
         width: 700px;
         text-align: center;
         a{
             color: $texto;
-            font-size: 20px;
+            font-size: 18px;
             font-weight:  light;
             text-decoration: none;
             // background: linear-gradient(90deg, #ffd97d, #ff9b85, #bdb2ff, #60d394, #ee6055);
@@ -40,12 +39,41 @@ body{
                     }
         }
     }
+    .recursos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center; /*horizontal*/
+        justify-content: center;
+        ul{
+            width: 400px;
+            text-align: left; 
+            list-style-type: '- ';
+            .tituloDiccionarios{
+                list-style-type: '📖';
+            }
+            .tituloSonidos{
+                list-style-type: '🔊';
+            }
+            .tituloOtros{
+                list-style-type: '📰';
+            }
+            li{
+                a{
+                    text-decoration: none;
+                    color: $texto;
+                    &:hover{
+                        color: $colorTerciario;
+                        }
+                }
+            }
+        }
+    }
 }
 
-// Texto negro
+// Texto color
 
  .introText{
-    // background: linear-gradient(90deg, #E9F7FD 0%, #E8F6FD 9.09%, #E7F1FC 18.18%, #E5EAFB 27.27%, #E3E2FA 36.36%, #E9DFF8 45.45%, #EFDDF6 54.55%, #F4DBF3 63.64%, #F2D9EA 72.73%, #F0D8E2 81.82%, #F2D9EA 90.91%, #EED7DC 100%);
     background: linear-gradient(90deg, #E9F7FD 0%, #E8F6FD 9.09%, #E7F1FC 18.18%, #E5EAFB 27.27%, #E3E2FA 36.36%, #E9DFF8 45.45%, #EFDDF6 54.55%, #ecdbf4 63.64%, #ead9f2 72.73%, #e9d8f0 81.82%, #ead9f2 90.91%, #e8ddf3 100%);
     color: $texto;
     width: 100%;
@@ -55,14 +83,16 @@ body{
     justify-content: center;
     align-items: center;
     box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.219);
+    img{
+        padding-bottom: 40px;
+        width: 60px;
+    }
     p{
-        width: 50%;
-        text-align: left;
+        text-align: justify;
         width: 500px;
         color: #575757;
     }
  }
-
 
 //  texto de las paginas
 
@@ -73,21 +103,21 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
     h2{
-        font-size: 60px;
+        font-size: 55px;
         margin-top: 100px;
         margin-bottom: 50px;
         color: $texto;
     }
     p{
         width: 50%;
-        text-align: left;
-        width: 600px;
+        text-align: justify;
+        width: 700px;
         color: $texto;
     }
     ul{
         width: 50%;
-        text-align: left;
-        width: 600px;
+        text-align: justify;
+        width: 700px;
         color: $texto;
         list-style-type: '- ';
         img{
@@ -102,7 +132,10 @@ body{
                 &:hover{
                     color: $colorTerciario;
                     }
+            }
         }
+        p{
+            text-align: center;
         }
     }
 }
@@ -122,14 +155,14 @@ body{
     }
 }
 
-/*Tabla*/
+// Tablas
+
 .container {
     position: relative;
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 }
-
 
 table {
 	width: 56%;
@@ -162,7 +195,7 @@ tbody {
 }
 
 
-/*Sticky BTN*/
+// Sticky BTN
 .stickyBtn{
     position: fixed;
     bottom: 30px;
@@ -183,10 +216,12 @@ tbody {
     }
 }
 
-/*MOBILE RESPONSIVE FRANJA NEGRA*/
+// MOBILE RESPONSIVE FRANJA NEGRA
+
 @media screen and (max-width: 500px) {
 
     // header de las paginas
+
     .glosarioText{
         display: flex;
         flex-direction: column;
@@ -203,7 +238,7 @@ tbody {
             width: 229px;
             a{
                 color: $texto;
-                font-size: 15px;
+                font-size: 14px;
                 font-style: italic;
             }
         }
@@ -218,17 +253,20 @@ tbody {
         display: flex;
         justify-content: center;
         align-items: center;
+        img{
+            padding-bottom: 20px;
+            width: 40px;
+        }
         p{
-            font-size: 10px;
+            font-size: 13px;
             width: 50%;
-            text-align: left;
+            text-align: justify;
             width: 229px;
             color: #575757;
         }
      }
     
-    
-    //  texto de las paginas
+    //  texto de las pag
     
     .textoInfo{
         display: flex;
@@ -276,14 +314,13 @@ tbody {
         }
     }
 
-    /*Tabla*/
+    // Tablas
 .container {
     position: relative;
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 }
-
 
 table {
 	width: 45%;

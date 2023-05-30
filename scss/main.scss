@@ -1,5 +1,5 @@
 @import "variables";
-@import "glosarios";
+@import "paginas";
 
 .fondoIndex{
     font-family: 'Manrope', sans-serif;
@@ -12,7 +12,6 @@
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: $colorPrincipal;
-    // box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.418);
     img{
         height: 30px;
     }
@@ -37,29 +36,6 @@
 .nav-link{
     margin-right: 70px;
     color: $texto;
-}
-
-.nav-link-inicio{
-    &:hover{
-        color: $colorTerciario;
-        }
-}
-.nav-link-glosario{
-    &:hover{
-        color: $colorTerciario;
-        }
-}
-.nav-link-consejos{
-    &:hover{
-        color: $colorTerciario;
-        }
-}
-.nav-link-software{
-    &:hover{
-        color: $colorTerciario;
-        }
-}
-.nav-link-recursos{
     &:hover{
         color: $colorTerciario;
         }
@@ -74,20 +50,21 @@
     margin-left: 70px;
     margin-bottom: 30px;
     h1{
-        
         font-size: 80px;
         text-align: left;
         color: $texto;
+        width: 1100px;
+        span{
+            font-weight:600;
+        }
         }
     }
-    
 
     .subtituloIndex{
         color: $colorTerciario;
         font-size: 27px; 
         font-weight: bold;       
     }
-    
     
     .parrafoIndex{
         text-align: left;
@@ -108,7 +85,6 @@
             transform: scale(0.8);
             }
     }
-
 }
 
 
@@ -135,12 +111,11 @@
         }
     }
     
-
     .subtituloIndex{
-        font-size: 25px;
-        font-style: italic;
+        font-size: 20px;
         font-weight: bolder;
     }
+
     .parrafoIndex{
         font-size: 15px;
         text-align: left;
@@ -161,6 +136,5 @@
             transform: scale(0.8);
             }
     }
-
 }
 }
