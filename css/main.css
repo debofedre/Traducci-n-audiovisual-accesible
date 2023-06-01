@@ -34,17 +34,18 @@ body {
     flex-wrap: wrap;
     align-items: center;
     /*horizontal*/
-    justify-content: center; }
+    justify-content: center;
+    width: 100%; }
     .glosarioText .recursos ul {
       width: 400px;
       text-align: left;
       list-style-type: '- '; }
       .glosarioText .recursos ul .tituloDiccionarios {
-        list-style-type: '📖'; }
+        list-style-type: '📘'; }
       .glosarioText .recursos ul .tituloSonidos {
-        list-style-type: '🔊'; }
+        list-style-type: '🎵'; }
       .glosarioText .recursos ul .tituloOtros {
-        list-style-type: '📰'; }
+        list-style-type: '🎬'; }
       .glosarioText .recursos ul li a {
         text-decoration: none;
         color: #000000; }
@@ -176,9 +177,8 @@ tbody tr {
       width: 40px; }
     .introText p {
       font-size: 13px;
-      width: 50%;
+      width: 80%;
       text-align: justify;
-      width: 229px;
       color: #575757; }
   .textoInfo {
     display: flex;
@@ -193,15 +193,14 @@ tbody tr {
       margin-bottom: 50px;
       color: #000000;
       text-align: center;
-      width: 70%; }
+      width: 90%; }
     .textoInfo p {
       text-align: justify;
-      width: 70%;
+      width: 90%;
       color: #000000; }
     .textoInfo ul {
-      width: 70%;
+      width: 90%;
       text-align: left;
-      width: 229px;
       color: #000000; }
       .textoInfo ul img {
         height: 100px; }
@@ -232,7 +231,12 @@ tbody tr {
     padding: 10px;
     color: #000000;
     font-weight: bold;
-    text-align: center; } }
+    text-align: center; }
+  .recursos {
+    width: 50%; }
+    .recursos ul {
+      font-size: 10px;
+      width: 50%; } }
 
 .fondoIndex {
   font-family: 'Manrope', sans-serif;

@@ -45,18 +45,19 @@ body{
         flex-wrap: wrap;
         align-items: center; /*horizontal*/
         justify-content: center;
+        width: 100%;
         ul{
             width: 400px;
             text-align: left; 
             list-style-type: '- ';
             .tituloDiccionarios{
-                list-style-type: '📖';
+                list-style-type: '📘';
             }
             .tituloSonidos{
-                list-style-type: '🔊';
+                list-style-type: '🎵';
             }
             .tituloOtros{
-                list-style-type: '📰';
+                list-style-type: '🎬';
             }
             li{
                 a{
@@ -139,21 +140,6 @@ body{
         }
     }
 }
-
-// //  glosario
-
-// .tituloGlosario{
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     margin-top: 70px;
-//     h2{
-//         font-size: 60px;
-//         margin-top: 100px;
-//         margin-bottom: 50px;
-//         color: $texto;
-//     }
-// }
 
 // Tablas
 
@@ -244,7 +230,7 @@ tbody {
         }
     }
     
-    // Texto negro
+    // Texto color
     
      .introText{
         background-color: $texto;
@@ -259,9 +245,8 @@ tbody {
         }
         p{
             font-size: 13px;
-            width: 50%;
+            width: 80%;
             text-align: justify;
-            width: 229px;
             color: #575757;
         }
      }
@@ -281,17 +266,16 @@ tbody {
             margin-bottom: 50px;
             color: $texto;
             text-align: center;
-            width: 70%;
+            width: 90%;
         }
         p{
             text-align: justify;
-            width: 70%;
+            width: 90%;
             color: $texto;
         }
         ul{
-            width: 70%;
+            width: 90%;
             text-align: left;
-            width: 229px;
             color: $texto;
             img{
                 height: 100px;
@@ -338,5 +322,13 @@ td {
     font-weight: bold;
     text-align: center;
     
+}
+
+.recursos{
+    width: 50%;
+    ul{
+        font-size: 10px;
+        width: 50%;
+    }
 }
 }
