@@ -1,9 +1,9 @@
 @charset "UTF-8";
 body {
   font-family: 'Manrope', sans-serif;
-  background-color: #ffffff; }
+  background-color: #f3f6f9; }
 
-.fondoGlosario {
+.fondoNavegador {
   background-color: #f3f6f9;
   background-size: cover; }
 
