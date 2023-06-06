@@ -217,14 +217,14 @@ tbody {
         width: 100%;
         h1{
             color: $texto;
-            font-size: 25px;
+            font-size: 30px;
             margin-bottom: 10px;
             }    
         p{
             width: 90%;
             a{
                 color: $texto;
-                font-size: 14px;
+                font-size: 18px;
                 font-style: italic;
             }
         }
@@ -309,10 +309,10 @@ tbody {
 }
 
 table {
-	width: 45%;
+	width: 75%;
 	border-collapse: collapse;
 	overflow: hidden;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 th,

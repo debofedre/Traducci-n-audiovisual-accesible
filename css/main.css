@@ -157,13 +157,13 @@ tbody tr {
     width: 100%; }
     .glosarioText h1 {
       color: #000000;
-      font-size: 25px;
+      font-size: 30px;
       margin-bottom: 10px; }
     .glosarioText p {
       width: 90%; }
       .glosarioText p a {
         color: #000000;
-        font-size: 14px;
+        font-size: 18px;
         font-style: italic; }
   .introText {
     background-color: #000000;
@@ -222,10 +222,10 @@ tbody tr {
     justify-content: center;
     margin-bottom: 40px; }
   table {
-    width: 45%;
+    width: 75%;
     border-collapse: collapse;
     overflow: hidden;
-    font-size: 10px; }
+    font-size: 15px; }
   th,
   td {
     padding: 10px;
