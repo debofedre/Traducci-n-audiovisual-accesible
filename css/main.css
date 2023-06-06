@@ -96,11 +96,13 @@ body {
       height: 300px;
       margin-top: 10px;
       margin-bottom: 10px; }
-    .textoInfo ul li a {
-      text-decoration: none;
-      color: #000000; }
-      .textoInfo ul li a:hover {
-        color: #9b51e0; }
+    .textoInfo ul li {
+      text-align: justify; }
+      .textoInfo ul li a {
+        text-decoration: none;
+        color: #000000; }
+        .textoInfo ul li a:hover {
+          color: #9b51e0; }
     .textoInfo ul p {
       text-align: center; }
 
@@ -153,7 +155,7 @@ tbody tr {
     align-items: left;
     /*horizontal*/
     justify-content: center;
-    height: 570px;
+    height: 700px;
     width: 100%; }
     .glosarioText h1 {
       color: #000000;
@@ -234,8 +236,11 @@ tbody tr {
   .recursos {
     width: 50%; }
     .recursos ul {
-      font-size: 10px;
-      width: 50%; } }
+      font-size: 18px;
+      width: 50%; }
+  .gifSubtitle {
+    width: 300px;
+    height: 250px; } }
 
 .fondoIndex {
   font-family: 'Manrope', sans-serif;
