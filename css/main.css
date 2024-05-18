@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #f3f6f9; }
 
 .fondoNavegador {
@@ -242,7 +242,7 @@ tbody tr {
     height: auto; } }
 
 .fondoIndex {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #ffffff;
   background-size: cover;
   background-repeat: no-repeat; }
